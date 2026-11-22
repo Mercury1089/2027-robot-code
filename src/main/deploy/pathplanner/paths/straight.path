@@ -1,0 +1,120 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 0.4239036144578311,
+        "y": 0.41792771084337454
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.4239036144578314,
+        "y": 0.41792771084337454
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.7352289156626508,
+        "y": 0.41792771084337454
+      },
+      "prevControl": {
+        "x": 0.7352289156626508,
+        "y": 0.41792771084337466
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "obstacleRegions": [
+    {
+      "startPos": 0.4,
+      "endPos": 0.9,
+      "obstacleTeam": "any",
+      "blockTimeoutSec": null,
+      "action": "divert",
+      "divertPath": {
+        "version": "2025.0",
+        "waypoints": [
+          {
+            "anchor": {
+              "x": 1.4825118072289158,
+              "y": 0.41792771084337454
+            },
+            "prevControl": null,
+            "nextControl": {
+              "x": 2.482511807228916,
+              "y": 0.4179277108433741
+            },
+            "isLocked": false,
+            "linkedName": null
+          },
+          {
+            "anchor": {
+              "x": 1.4825118072289158,
+              "y": 1.2375060240963864
+            },
+            "prevControl": {
+              "x": 1.499321529002733,
+              "y": 0.9880717977883537
+            },
+            "nextControl": null,
+            "isLocked": false,
+            "linkedName": null
+          }
+        ],
+        "rotationTargets": [],
+        "constraintZones": [],
+        "pointTowardsZones": [],
+        "obstacleRegions": [],
+        "eventMarkers": [],
+        "globalConstraints": {
+          "maxVelocity": 3,
+          "maxAcceleration": 3,
+          "maxAngularVelocity": 540,
+          "maxAngularAcceleration": 720,
+          "nominalVoltage": 12.0,
+          "unlimited": false
+        },
+        "goalEndState": {
+          "velocity": 0,
+          "rotation": -179.76896399756242
+        },
+        "reversed": false,
+        "folder": null,
+        "idealStartingState": {
+          "velocity": 0,
+          "rotation": 178.4177303284148
+        },
+        "useDefaultConstraints": true
+      },
+      "trigger": "robot",
+      "pieceMaxDistance": 2.0
+    }
+  ],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 0.1,
+    "maxAcceleration": 0.1,
+    "maxAngularVelocity": 0.1,
+    "maxAngularAcceleration": 0.1,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 179.9470251425757
+  },
+  "reversed": false,
+  "folder": null,
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -178.52133813839882
+  },
+  "useDefaultConstraints": false
+}

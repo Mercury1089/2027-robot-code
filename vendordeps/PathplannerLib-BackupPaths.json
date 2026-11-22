@@ -1,0 +1,27 @@
+{
+    "fileName": "PathplannerLib-BackupPaths.json",
+    "name": "PathplannerLib-BackupPaths",
+    "version": "1.3.0",
+    "uuid": "3d6a28a7-468a-4c75-afd7-ccf2a78e3135",
+    "frcYear": "2026",
+    "mavenUrls": [
+        "https://aarya470.github.io/pathplanner-backup-reactive-autos-paths/repo"
+    ],
+    "jsonUrl": "https://aarya470.github.io/pathplanner-backup-reactive-autos-paths/PathplannerLib-BackupPaths.json",
+    "conflictsWith": [
+        {
+            "uuid": "1b42324f-17c6-4875-8e77-1c312bc8c786",
+            "errorMessage": "PathplannerLib-BackupPaths replaces PathplannerLib. Remove PathplannerLib from vendordeps first.",
+            "offlineFileName": "PathplannerLib.json"
+        }
+    ],
+    "javaDependencies": [
+        {
+            "groupId": "io.github.aarya470",
+            "artifactId": "PathplannerLibBackupPaths-java",
+            "version": "1.3.0"
+        }
+    ],
+    "jniDependencies": [],
+    "cppDependencies": []
+}
